@@ -55,3 +55,6 @@ artifacts/
 
 # Contract deployment
 deployments/
+
+.env.*.local
+!.env.example
