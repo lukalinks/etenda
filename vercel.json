@@ -7,10 +7,5 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "env": {
-    "VITE_WALLETCONNECT_PROJECT_ID": "@vite_walletconnect_project_id",
-    "VITE_ALCHEMY_API_KEY": "@vite_alchemy_api_key",
-    "VITE_CONTRACT_ADDRESS": "@vite_contract_address"
-  }
+  ]
 } 
