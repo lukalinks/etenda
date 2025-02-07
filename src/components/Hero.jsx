@@ -4,7 +4,7 @@ import { Button } from './ui/Button';
 import { motion } from 'framer-motion';
 import { useAccount } from 'wagmi';
 import { useNavigate } from 'react-router-dom';
-import { useWeb3Modal } from '@web3modal/react';
+import { useWeb3Modal } from '@web3modal/wagmi/react';
 
 export default function Hero() {
   const { isConnected } = useAccount();
