@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "env": {
+    "VITE_CONTRACT_ADDRESS": "0x54DADa9778e511291F41858Be89A23a0d3eAeC22"
+  }
+} 
